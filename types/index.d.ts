@@ -1,0 +1,25 @@
+declare module 'lodash' {
+
+   /* let arr1 = [1, 2, 3]
+    let arr2 = ['a', 'b', 'c']
+     
+    let a = _.multiply(2, 5)
+    
+    let b = _.reverse(arr1)
+    
+    let c = _.reverse(arr2)
+    
+    let d = _.dropRight(['a', 'b', 'c', 4, 5, 6], 2)
+*/
+
+
+function multiply(multiplier: number, multiplicand:number): number
+
+function reverse(arr2:string[]): string[]
+function reverse(arr1:number[]): number[]
+
+// or function reverse(arr2:t): t
+
+function dropRight(arr:(number|string)[], n?: number): (number|string)[]
+
+}
