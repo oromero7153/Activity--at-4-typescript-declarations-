@@ -11,14 +11,13 @@ declare module 'lodash' {
     
     let d = _.dropRight(['a', 'b', 'c', 4, 5, 6], 2)
 */
-
-
 function multiply(multiplier: number, multiplicand:number): number
 
+/*
 function reverse(arr2:string[]): string[]
 function reverse(arr1:number[]): number[]
-
-// or function reverse(arr2:t): t
+*/
+function reverse<T>(arr2:T): T[]
 
 function dropRight(arr:(number|string)[], n?: number): (number|string)[]
 
